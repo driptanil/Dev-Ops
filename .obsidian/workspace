@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "4f23f1dec777e7cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "61367f1e17f6a783",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "02-Docker/Docker.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "442af784ba7869e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "a52905dbb3ce24e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38de0f9f5f1d0535",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f32b4895a655b5d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 408.00435638427734,
+    "collapsed": true
+  },
+  "right": {
+    "id": "e832f17a60fdad76",
+    "type": "split",
+    "children": [
+      {
+        "id": "3943f6575a6cf72a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d75a67bb6a56343b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-Docker/Docker.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7d7f9ddbde19769",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-Docker/Docker.md"
+              }
+            }
+          },
+          {
+            "id": "69e71884f66ebb1d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "e994a83178cf64e8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "967184cb817add89",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2a10fbb72bc03f82",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 473.6,
+    "collapsed": true
+  },
+  "active": "61367f1e17f6a783",
+  "lastOpenFiles": [
+    "02-Docker/Docker.md",
+    "Excalidraw/Drawing 2022-04-29 08.43.40.excalidraw.md",
+    "TerminalBasics/Linux & Terminal Commands.md",
+    "TerminalBasics/images/find.-type.png",
+    "TerminalBasics/images/locate.png",
+    "TerminalBasics/images/cut.png",
+    "TerminalBasics/images/sort-r.png",
+    "TerminalBasics/images/sort.png",
+    "TerminalBasics/images/grep-c.png",
+    "TerminalBasics/images/grep-l.png"
+  ]
+}
