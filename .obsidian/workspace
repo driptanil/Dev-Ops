@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "02-Docker/Docker.md",
+            "file": "01-YAML/YAML.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Docker/Docker.md",
+                "file": "01-YAML/YAML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Docker/Docker.md"
+                "file": "01-YAML/YAML.md"
               }
             }
           },
@@ -136,6 +136,7 @@
   },
   "active": "61367f1e17f6a783",
   "lastOpenFiles": [
+    "01-YAML/YAML.md",
     "02-Docker/Docker.md",
     "Excalidraw/Drawing 2022-04-29 08.43.40.excalidraw.md",
     "TerminalBasics/Linux & Terminal Commands.md",
@@ -144,7 +145,6 @@
     "TerminalBasics/images/cut.png",
     "TerminalBasics/images/sort-r.png",
     "TerminalBasics/images/sort.png",
-    "TerminalBasics/images/grep-c.png",
-    "TerminalBasics/images/grep-l.png"
+    "TerminalBasics/images/grep-c.png"
   ]
 }
