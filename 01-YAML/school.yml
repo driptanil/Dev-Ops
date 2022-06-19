@@ -1,9 +1,0 @@
----
-School:
-- name: RUST
-  principal: Someone
-  Student:
-  - name: Driptanil
-    roll_no: 168
-    marks: 96
----
