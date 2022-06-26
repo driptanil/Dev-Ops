@@ -147,7 +147,7 @@
 ### Docker Architecture
 
 - Docker uses a client-server architecture.
-![550](DockerArchitecture.png)
+![450](images/DockerArchitecture.png)
 
 ### Docker Daemon
 
