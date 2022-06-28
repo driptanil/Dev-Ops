@@ -1,7 +1,8 @@
 {
-  "baseFontSize": 20,
+  "baseFontSize": 19,
   "translucency": false,
   "cssTheme": "Primary",
-  "theme": "obsidian",
-  "baseFontSizeAction": true
+  "theme": "moonstone",
+  "baseFontSizeAction": true,
+  "interfaceFontFamily": "JetBrainsMono Nerd Font Mono"
 }
