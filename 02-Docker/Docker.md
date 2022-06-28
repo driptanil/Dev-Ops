@@ -134,7 +134,7 @@ Docker _(list of instructions)_ -> Image _(class)_ -> Container _(object)_
 -> layer already exists
 
 - `docker login` for login in command line interface.
-  ![650][images/dockerlogin.png]
+![650][images/dockerlogin.png]
   
 #### Docker Config Files
 
@@ -148,7 +148,11 @@ Docker _(list of instructions)_ -> Image _(class)_ -> Container _(object)_
 
 ### Docker Architecture
 - Docker uses a client-server architecture.
+<<<<<<< HEAD
 ![550](images/DockerArchitecture.png)
+=======
+![450](images/DockerArchitecture.png)
+>>>>>>> 2c54607aed4f518bcd28f3f8277aa954a00f195c
 
 ### Docker Daemon
 - Docker daemon `dockerd` listens for requests of Docker API requests and manages Docker objects like images, container, networks and volumes.
@@ -157,4 +161,9 @@ Docker _(list of instructions)_ -> Image _(class)_ -> Container _(object)_
 - Docker client `docker` is the primary way that many many Docker users interact with Docker.
   
 ### Docker Registry
+<<<<<<< HEAD
 - Docker registry stores Docker images. Docker Hub is public registry 
+=======
+
+- Docker registry stores Docker images. Docker Hub is public registry 
+>>>>>>> 2c54607aed4f518bcd28f3f8277aa954a00f195c
