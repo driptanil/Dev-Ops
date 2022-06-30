@@ -1,29 +1,67 @@
-# Introduction
-- Application are run on servers.
-- Previously, 1 application on 1 server.
-- If any wanted to make an application, they had to purchase a server
-- VM-Ware solved the problem, which many application to run on servers.
-- But virtual machine are very slow, as specific memory and storage had be allocated.
-- Docker does need any Operating System and no operation.
-
-#### Containers
+![](images/docker-cover.jpg)
+### Containers
 
 - Containers provide a way of creating an isolated environment, sometimes called a sandbox, in which applications and their dependencies can live.
 
-##### Why are containers useful?
+#### Why are containers useful?
 
-**Portability** – the isolated environment that containers provide effectively means the container is decoupled from the environment in which they run. Basically, they don’t care much about the environment in which they run, which means they can be run in many different environments with different operating systems and hardware platforms.
+- **Portability** – the isolated environment that containers provide effectively means the container is decoupled from the environment in which they run. Basically, they don’t care much about the environment in which they run, which means they can be run in many different environments with different operating systems and hardware platforms.
 
-**Consistency** – since the containers are decoupled from the environment in which they run, you can be sure that they operate the same, regardless of where they are deployed. The isolated environment that they provide is the same across different deployment environments.
+- **Consistency** – since the containers are decoupled from the environment in which they run, you can be sure that they operate the same, regardless of where they are deployed. The isolated environment that they provide is the same across different deployment environments.
 
-**Speed to deploy** – for the same reasons as above. There is no need for considerations around how the application will operate in a production environment. If it runs in a container in one environment (say, your local machine), then it can be made to run in a container in another environment (say, in a cloud provider) very quickly
+- **Speed to deploy** – for the same reasons as above. There is no need for considerations around how the application will operate in a production environment. If it runs in a container in one environment (say, your local machine), then it can be made to run in a container in another environment (say, in a cloud provider) very quickly
+
+#### What is it made of ?
+
+- It has a layer of images:
+  
+	1. Linux Base Images, which is small in size (Alpine Linux)
+	   _(at the bottom)_
+	   
+	2. Intermediate Images
+	   _(at the middle)_
+	   
+	3. Application Images
+	   _(at the top)_
 
 # Docker 
 - Docker is an open platform for developing, shipping, and running applications. 
 - Docker provides the ability to package and run an application in a loosely isolated environment called a container. 
+- It eliminates the need to install the dependences and required packages for development.
 
 Docker _(list of instructions)_ -> Image _(class)_ -> Container _(object)_
 
+###### before containers:
+- development team would send configuration files and instructions to the operations team.
+- operations team would configure the server to host an application.
+- often lead to mis-communication, conflicts and cause delay.
+
+###### after containers :
+- No environment configuration needed on server, which is one-time effort.
+- Maintains harmony between development and operations team.
+
+#### Container & Image
+
+**Image**:
+- Images is the actual packages
+
+**Container:**
+- When the image is pulled and started, that is container.
+- It is a running environment for an image.
+  
+## Docker vs Virtual Machine
+
+##### Docker:
+- Docker only has its own Application Layer (1 layer)
+- faster
+- size: MB
+  
+  
+##### Virtual Machine
+- Virtual Machine has its own Application Layer and OS kernel
+- slower
+- size: GB
+  
 ### Docker Runtime
 - Runtime allows us to start or stop the containers.
 - #### Run C
