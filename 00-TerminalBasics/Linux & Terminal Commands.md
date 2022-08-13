@@ -5,46 +5,51 @@ A shell is a command-line interface which allows to perform certain tasks using 
 ### Basic Commands
 
 - `cd` → change directory
+  ![800](images/cd.png)
     - `cd ..` → goes back a single directory
+      ![800](images/cd_.png)
 - `mkdir` → make new folder
+  ![800](images/mkdir.png)
     - `mkdir -p` → makes directories and sub-directories too.
-        
-        ![mkdir-p.png](mkdir-p.png)
+      ![800](images/mkdir-p.png)
         
 - `touch` → creates a new file
-    
-    ![touch.png](touch.png)
+  ![800](touch.png)
     
 - `ls`/`dir` → lists all the files in the current directory
+  ![800](images/ls.png)
+  ![800](images/dir.png)
     - `ls -a` → displays all the hidden files
+      ![800](images/ls-a.png)
     - `ls -l` → shows more information like size, date about the files in working directory.
+      ![800](images/ls-l.png)
     - `ls -R` → show files, directories and sub-directories as well.
+      ![800](images/ls-R.png)
 - `xdg-open` / `open` → opens the graphical interface of the present working directory.
 - `pwd` → Print Working Directory
+  ![800](images/pwd.png)
 - `cp` → creates a copy of a file or a folder
-    
-    ![cp.png](cp.png)
+    ![800](images/cp.png)
     
     - `cp -R` → copies directories and also the sub-directories
-        
-        ![cp-R.png](cp-R.png)
+        ![800](images/cp-R.png)
         
 - `mv` → moves files
-    
-    ![mv.png](mv.png)
+    ![800](images/mv.png)
     
     If names of two files are given, then the file gets renamed.
     
-    ![mv2.png](mv2.png)
-    
 - `rm` → removes only files permanently.
+  ![800](images/rm.png)
     - `rm -R` → removes directories permanently.
+      ![800](images/rm-R.png)
     - `rm -rf` → force remove of files or directories.
+      ![800](images/rm-rf.png)
       
 - `sudo` → Super User Do gives system administrator privileges.
-    
-    ![sudo.png](sudo.png)
-    
+    ![800](images/sudo.png)
+	`sudo apt update && sudo apt upgrade` is used to download and install updates.
+
 - `history` → displays history of commands
     
     ![history.png](history.png)
@@ -72,6 +77,7 @@ A shell is a command-line interface which allows to perform certain tasks using 
     ![echo2.png](echo2.png)
     
 - `cat` stands for concatenate, it is used to display the contents of a file
+  ![800](images/cat.png)
     - `cat >` creates a file.
         
         ![cat>.png](cat>.png)
@@ -79,11 +85,11 @@ A shell is a command-line interface which allows to perform certain tasks using 
         ![cat>2.png](cat>2.png)
         
 
-- `vi names.txt` allows editing the file in the console.
+- `vi <file_name>` allows editing the file in the console.
     
-    ![vi.png](vi.png)
-    
-    ![vi2.png](vi2.png)
+    ![800](images/vi.png)
+
+    ![800](images/vi2.png)
     
     - press `i` to enter insert mode and `Esc` to enter command mode.
         - `I` - Insert text at the beginning of the current line
@@ -105,7 +111,7 @@ A shell is a command-line interface which allows to perform certain tasks using 
     - `:wq` → writes and quit the file in command mode
     - `:q!` → quit without saving the changes in command mode
     - `:w` → save and continue editing
-    - `yy` → Yank [copy a line of text]
+    - `yy` → Yank (copy a line of text)
     
     [An introduction to the vi editor](https://www.redhat.com/sysadmin/introduction-vi-editor)
     
@@ -188,13 +194,13 @@ A shell is a command-line interface which allows to perform certain tasks using 
         
     - `find . -type f` → displays all the files in the working directory.
         
-        ![Screenshot_20220125_090119.png](Screenshot_20220125_090119.png)
+        ![find.-typef.png](find.-typef.png)
         
     - `find -name`  → displays all files and folders with the name in working directory.
         
-        ![Screenshot_20220125_090440.png](Screenshot_20220125_090440.png)
+        ![find.-typef-name.png](find.-typef-name.png)
         
-        ![Screenshot_20220125_090519.png](Screenshot_20220125_090519.png)
+        ![find..png](find..png)
         
     - `find -iname` → displays all files and folders with the name [not case sensitive] in the working directory.
         
@@ -242,11 +248,11 @@ A shell is a command-line interface which allows to perform certain tasks using 
 - `.profile` file consist of all the environmental variable paths.
 - `$PATH` → consists all directories of the environmental variables
     
-    ![Screenshot_20220124_221344.png](Screenshot_20220124_221344.png)
+    ![echopath.png](echopath.png)
     
 - `export` is used to set temporary environmental variable
     
-    ![Screenshot_20220124_231857.png](Screenshot_20220124_231857.png)
+    ![echocustomenv.png](echocustomenv.png)
     
 - `chmod` → used to change the access permissions of file.
     
@@ -363,11 +369,11 @@ A shell is a command-line interface which allows to perform certain tasks using 
     - `df -h` → displays the size and usage details in human readable format.
 - `du` → shows the disk usage statistics in working directory
     
-    ![Screenshot_20220125_083537.png](Screenshot_20220125_083537.png)
+    ![du.png](du.png)
     
     - `du -h` → shows the disk usage statistics in working directory in human readable format.
         
-        ![Screenshot_20220125_083727.png](Screenshot_20220125_083727.png)
+        ![du-h.png](du-h.png)
         
 - `cat /etc/os-release` → displays the operation system information
     

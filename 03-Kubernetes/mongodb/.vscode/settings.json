@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "kubernetes://schema/apps/v1%40deployment": "file:///c%3A/Users/Driptanil/OneDrive/Documents/Dev-Ops/03-Kubernetes/mongodb/mongodb.yaml"
+    }
+}
