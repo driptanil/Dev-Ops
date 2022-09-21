@@ -63,7 +63,7 @@ if the database node dies, users will face issues
 Kubernetes cluster is made of multiple nodes (replicas of one node).
 
 ### Kubeproxy
-- responsible for forwarding requests from services to pods is actually cube proxy
+- responsible for forwarding requests from services to pods is actually present in same node.  
 
 ## Master Node
 
