@@ -7,13 +7,14 @@ spec:
     matchLabels:
       app: nginx
   replicas: 2 # tells deployment to run 2 pods matching the template
-  template:
+
+  template: # the configuration of the pods are defined here
     metadata:
       labels:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx:1.14.2
-        ports:
-        - containerPort: 80
+        - name: nginx
+          image: nginx:1.14.2
+          ports:
+            - containerPort: 80

@@ -15,24 +15,25 @@ spec:
         app: mongodb
     spec:
       containers:
-        - ports:
-            - containerPort: 27017
-          resources:
-            limits: {}
-            requests: {}
-          env:
-            - name: MONGO_INITDB_ROOT_USERNAME
-              valueFrom:
-                secretKeyRef:
-                  name: mongodb-secret
-                  key: mongo-root-username
-            - name: MONGO_INITDB_ROOT_PASSWORD
-              valueFrom:
-                secretKeyRef:
-                  name: mongodb-secret
-                  key: mongo-root-password
-          name: mongodb
-          image: mongo
+      - name: mongodb
+        image: mongo
+        ports:
+        - containerPort: 27017
+        resources:
+          limits: {}
+          requests: {}
+        env:
+        - name: MONGO_INITDB_ROOT_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: mongodb-secret
+              key: mongo-root-username
+        - name: MONGO_INITDB_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mongodb-secret
+              key: mongo-root-password
+
 ---
 apiVersion: v1
 kind: Service
@@ -42,6 +43,6 @@ spec:
   selector:
     app: mongodb
   ports:
-    - protocol: TCP
-      port: 27017
-      targetPort: 27017
+  - protocol: TCP
+    port: 27017
+    targetPort: 27017
